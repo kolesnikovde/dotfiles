@@ -1,0 +1,30 @@
+[user]
+  name = Kolesnikov Danil
+  email = kolesnikovde@gmail.com
+
+[github]
+  user = kolesnikovde
+
+[core]
+  editor = subl
+
+[push]
+  default = current
+
+[advice]
+  statusHints = false
+
+[alias]
+  discard = checkout -- .
+  undo = reset --soft HEAD^
+  graph = log --graph
+
+[color]
+  ui = auto
+
+[format]
+  pretty = %h%C(reset)%x09%C(cyan)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)
+  graph = true
+
+[log]
+  abbrevCommit = true
