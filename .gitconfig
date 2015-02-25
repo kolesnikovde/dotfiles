@@ -7,6 +7,7 @@
 
 [core]
   editor = subl
+	excludesfile = ~/.gitignore
 
 [push]
   default = current
@@ -15,16 +16,14 @@
   statusHints = false
 
 [alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+  a = add -A
+  hist = log --pretty=format:\"%h%C(reset)%x09%C(cyan)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)\" --graph --abbrev-commit
   discard = checkout -- .
   undo = reset --soft HEAD^
-  graph = log --graph
 
 [color]
   ui = auto
-
-[format]
-  pretty = %h%C(reset)%x09%C(cyan)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)
-  graph = true
-
-[log]
-  abbrevCommit = true
