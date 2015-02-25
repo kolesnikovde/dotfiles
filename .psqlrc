@@ -3,7 +3,6 @@
 \set prompt1 '%n@%/ %R%# '
 \set prompt2 ' %R%# '
 \set verbosity verbose
-\set histfile /dev/null
 \pset null '[null]'
 \x auto
 \timing
