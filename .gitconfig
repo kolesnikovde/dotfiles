@@ -7,7 +7,7 @@
 
 [core]
   editor = subl
-	excludesfile = ~/.gitignore
+  excludesfile = ~/.gitignore
 
 [push]
   default = current
