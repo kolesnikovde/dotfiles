@@ -2,22 +2,16 @@
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
 	"copy_with_empty_selection": false,
 	"default_line_ending": "unix",
-	"enable_tab_scrolling": false,
-	"gutter": false,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage"
 	],
-	"line_numbers": false,
-	"margin": 8,
 	"rulers":
 	[
 		79
 	],
-	"show_tab_close_buttons": false,
 	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"update_check": false,
 	"word_wrap": false
 }
