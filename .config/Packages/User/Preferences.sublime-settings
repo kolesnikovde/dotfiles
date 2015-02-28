@@ -1,17 +1,10 @@
 {
 	"color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
+	"theme": "Soda Dark.sublime-theme",
 	"copy_with_empty_selection": false,
-	"default_line_ending": "unix",
 	"highlight_line": true,
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"rulers":
 	[
 		79
-	],
-	"theme": "Soda Dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
-	"word_wrap": false
+	]
 }
