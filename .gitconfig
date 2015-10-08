@@ -24,6 +24,7 @@
   hist = log --pretty=format:\"%h%C(reset)%x09%C(cyan)%d%C(reset) %s %C(green)(%cr) %C(bold blue)<%an>%C(reset)\" --graph --abbrev-commit
   discard = checkout -- .
   undo = reset --soft HEAD^
+  conflicts = diff --diff-filter=U
 
 [color]
   ui = auto
