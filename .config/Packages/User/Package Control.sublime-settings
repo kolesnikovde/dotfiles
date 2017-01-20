@@ -4,13 +4,8 @@
 	],
 	"installed_packages":
 	[
-		"Better CoffeeScript",
 		"EditorConfig",
-		"Haml",
-		"LESS",
 		"Package Control",
-		"Ruby Slim",
-		"Sass",
 		"SideBarEnhancements",
 		"SyncedSideBar",
 		"Theme - Soda"
