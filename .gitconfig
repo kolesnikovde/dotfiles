@@ -6,7 +6,7 @@
   user = kolesnikovde
 
 [core]
-  editor = subl
+  editor = code
   excludesfile = ~/.gitignore
 
 [push]
